@@ -37,7 +37,7 @@ a{
 
 #portfolio-area{
     display: flex;
-    margin:50px 40px;
+   margin:50px 40px 0px 40px;
 }
 .portfolio-image img{
     width:100%;
@@ -66,8 +66,11 @@ a{
 #about-me{
     display: flex;
     background-image: url(images/about-bg.png);
-    padding: 50px 20px;
-    margin-bottom: 200px;
+   padding: 50px 20px;
+   margin-top: -130px;
+   margin-bottom: 50px;
+    
+    
 }
 .about-me-img img{
     
@@ -85,4 +88,129 @@ a{
     margin:40px 0;
     font-weight: 400;
     color: rgb(126, 102, 102);
+}
+
+/* ability start here */
+.my-ability-top{
+    text-align: center;
+}
+.my-ability-top h1{
+    font-size: 35px;
+    font-weight:800;
+}
+.my-ability-top p{
+    font-size: 19px;
+    font-weight: 200;
+    color:gray;
+    line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.ability-area{
+    display: flex;
+    
+}
+.ability-part{
+    width:30%;
+    margin:0 3%;
+    border:1px solid rgba(0,0,0,0.5);
+    box-shadow: -3px -3px 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.ability-part .ability-img{
+    text-align: center;
+    
+   
+}
+.ability-part .ability-img img{
+    width:30%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius:10px;
+    
+    
+    padding:10px 10px;
+    margin-top: 10px;
+}
+.ability-blog{
+    text-align: left;
+    margin-left: 10px;
+}
+.ability-blog h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+.ability-blog p{
+    color:gray;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+/* my-work start here */
+#my-work{
+   
+    display: flex;
+    margin-top:20px;
+    background-image: url(images/my-work.png);
+    background-repeat: no-repeat;
+    position: left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    width:80%;
+    margin-left: 10%;
+    margin-bottom:3%;
+    margin-top: 3%;
+    border-left:6px solid blue;
+    border-image: linear-gradient(rgb(145, 255, 0),rgb(92, 92, 167));
+    border-image-slice: 1;
+    
+}
+.work-blog{
+    width: 50%;
+    margin:0 40px;
+
+}
+.work-blog h1{
+    font-weight: 800;
+    font-size: 45px;
+    color:gray;
+}
+.work-blog p{
+    font-weight: 200;
+    font-size: 15px;
+    color:black;
+}
+.work-img{
+    width:30%;
+    margin:0 30px;
+    
+}
+.work-img img{
+    width:100%;
+}
+
+
+
+/* footer starts here */
+
+footer{
+    text-align: center;
+    padding:8px 0;
+    
+    background-color: black;
+}
+footer h1{
+    color:gray;
+}
+.salmon-color{
+    color:salmon;
+}
+footer p{
+    color:white;
+    font-size: 14px;
+}
+footer strong{
+    color:rgb(168, 127, 127);
+    font-size: 10px;
 }
