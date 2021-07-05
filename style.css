@@ -1,0 +1,18 @@
+body{
+    margin:0;
+}
+
+#top-menu{
+    display: flex;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.787);
+    padding:14px 0;
+    
+}
+#top-menu a{
+    color:rgb(142, 247, 247);
+    font-weight:800;
+    font-size:20px;
+    margin:5px 20px;
+    text-decoration: none;
+}
