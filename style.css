@@ -60,3 +60,29 @@ a{
     margin: 45px 0;
     font-size:18px;
 }
+
+/* about me start here */
+
+#about-me{
+    display: flex;
+    background-image: url(images/about-bg.png);
+    padding: 50px 20px;
+    margin-bottom: 200px;
+}
+.about-me-img img{
+    
+    width:50%;
+    height:120%;
+    margin-left: 250px;
+}
+.about-me-blog h2{
+    
+    font-weight: 600;
+    color:gray;
+}
+.about-me-blog p{
+    font-size:14px;
+    margin:40px 0;
+    font-weight: 400;
+    color: rgb(126, 102, 102);
+}
