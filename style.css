@@ -147,8 +147,8 @@ a{
     font-weight: 200;
     margin-bottom: 10px;
 }
-/* my-work start here */
-#my-work{
+/* amazing start here */
+#amazing-view{
    
     display: flex;
     margin-top:20px;
@@ -166,27 +166,27 @@ a{
     border-image-slice: 1;
     
 }
-.work-blog{
+.amazing-blog{
     width: 50%;
     margin:0 40px;
 
 }
-.work-blog h1{
+.amazing-blog h1{
     font-weight: 800;
     font-size: 45px;
     color:gray;
 }
-.work-blog p{
+.amazing-blog p{
     font-weight: 200;
     font-size: 15px;
     color:black;
 }
-.work-img{
+.amazing-img{
     width:30%;
     margin:0 30px;
     
 }
-.work-img img{
+.amazing-img img{
     width:100%;
 }
 
